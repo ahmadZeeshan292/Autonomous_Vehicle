@@ -4,7 +4,7 @@
 ![Python](https://img.shields.io/badge/python-3.8+-blue)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.5+-orange)
 
-An end-to-end classical computer vision-based autonomous driving system that performs **lane detection**, **dynamic object detection**, and **HUD-based directional feedback** using motion and color segmentation.
+An end-to-end classical computer vision-based autonomous driving system that performs **lane detection**, **dynamic object detection**, and **HUD-based directional feedback** using motion and color segmentation all in real time.
 
 ---
 
