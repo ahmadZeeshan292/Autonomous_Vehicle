@@ -1,6 +1,5 @@
 # 🛣️ Autonomous Vehicle: Lane Detection, Object Detection & Directional Control
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Status](https://img.shields.io/badge/status-Active-brightgreen)
 ![Python](https://img.shields.io/badge/python-3.8+-blue)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.5+-orange)
