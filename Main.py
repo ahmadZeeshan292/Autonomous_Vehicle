@@ -1,6 +1,5 @@
 import cv2
 from AutonomousVehicle import SelfDrivingVehicle
-from ObjectDetector import ObjectDetection
 
 if __name__ == "__main__":
     path = r'C:\Users\Ahmad Zeeshan\OneDrive\Desktop\semestor\6th semestor\DIP\Project\Dataset\DIP Project Videos\PXL_20250325_043754655.TS.mp4'
@@ -9,7 +8,6 @@ if __name__ == "__main__":
     ret, frame = video.read()
     scaling_factor = 1
     frame = cv2.resize(frame, (int(1280 * scaling_factor), int(720 * scaling_factor)), interpolation=cv2.INTER_AREA)
-    obj = ObjectDetection(frame, scaling_factor)
 
     car = SelfDrivingVehicle(frame, scaling_factor)
 
