@@ -39,7 +39,7 @@ The system follows a dual-pipeline architecture:
 
 Both systems communicate with a central display system (HUD) to render directional cues and safety warnings.
 
-![Pipeline Flowchart](.flowchart.jpg)
+![Pipeline Flowchart](Pipeline Flowchart.jpg)
 
 ---
 
