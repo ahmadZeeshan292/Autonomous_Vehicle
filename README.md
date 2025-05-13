@@ -93,7 +93,7 @@ This design enables the system to be portable and deployable on lower-end hardwa
 
 You can see the complete working of the autonomous vehicle system in the demo video below:
 
-🎥 **[▶ Watch Demo Video](Output_video.mp4)**
+🎥 **[▶ Watch Demo Video](Slow_motion_Output_video.mp4)**
 
 
 
