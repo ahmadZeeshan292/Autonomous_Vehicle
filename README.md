@@ -17,6 +17,8 @@ An end-to-end classical computer vision-based autonomous driving system that per
   - [Lane Detection](#lane-detection)
   - [Object Detection](#object-detection)
   - [Directional Control](#directional-control)
+- [⚙️ Performance Optimization](#️-performance-optimization)
+- [🧪 Demo and Testing](#-demo-and-testing)
 
 ---
 
@@ -75,6 +77,24 @@ Both systems communicate with a central display system (HUD) to render direction
 
 - If lanes are detected: provide curvature-based directional arrows.
 - If objects in ROI: overlay real-time warnings for safe navigation.
+
+## ⚙️ Performance Optimization
+
+To enable faster and near real-time processing, the code introduces a **scaling factor**. This factor scales down:
+
+- The **input video resolution** for lighter processing.
+- The **features (motion points, lane masks, etc.)**, ensuring operations like optical flow and polynomial fitting remain efficient.
+
+This design enables the system to be portable and deployable on lower-end hardware or embedded devices.
+
+---
+
+## 🧪 Demo and Testing
+
+You can see the complete working of the autonomous vehicle system in the demo video below:
+
+🎥 **[▶ Watch Demo Video](Output_video.mp4)**
+
 
 
 
